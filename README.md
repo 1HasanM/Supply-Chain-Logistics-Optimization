@@ -3,6 +3,7 @@ Project Summary
 In this project, we aimed to optimize logistics processes using a supply chain dataset. The main objective was to develop machine learning models capable of predicting shipping costs and times, and to identify the factors that most influence these predictions.
 
 Methodology
+
 Data Analysis and Preprocessing: The dataset's structure was examined, and categorical variables (transportation modes, shipping carriers, etc.) were converted into numerical data using the One-Hot Encoding method.
 
 Model Development and Comparison: Advanced regression algorithms, including Random Forest, XGBoost, and LightGBM, were trained to predict shipping costs and times.
@@ -10,6 +11,7 @@ Model Development and Comparison: Advanced regression algorithms, including Rand
 Model Evaluation: Model performance was evaluated using metrics such as R-squared (R2) and Mean Absolute Error (MAE).
 
 Findings and Results
+
 Shipping Cost Prediction:
 
 The RandomForestRegressor model yielded an R2 score of -0.43 and an MAE of 2.66.
@@ -29,6 +31,7 @@ The LightGBM Regressor model yielded an R2 score of -0.27 and an MAE of 2.22.
 The low and negative R2 scores indicated that the current dataset is insufficient for accurately predicting shipping costs and times. This revealed that the limitation was not the complexity of the models, but the explanatory power of the data itself.
 
 Key Takeaways and Next Steps
+
 Despite the low model performance, feature importance analysis provided valuable insights:
 
 The most influential factors on shipping costs were determined to be Production volumes and Price.
