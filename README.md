@@ -1,4 +1,5 @@
 Project Summary
+
 In this project, we aimed to optimize logistics processes using a supply chain dataset. The main objective was to develop machine learning models capable of predicting shipping costs and times, and to identify the factors that most influence these predictions.
 
 Methodology
